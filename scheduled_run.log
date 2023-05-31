@@ -1,0 +1,188 @@
+2023-03-17 15:57:05|INFO|Scheduler started
+2023-03-17 15:57:05|DEBUG|Looking for jobs to run
+2023-03-17 15:57:05|DEBUG|No jobs; waiting until a job is added
+2023-03-17 15:57:05|INFO|Added job "job_schedule_reminder_549" to job store "default"
+2023-03-17 15:57:05|DEBUG|Looking for jobs to run
+2023-03-17 15:57:05|DEBUG|Next wakeup is due at 2023-03-17 16:57:07.326755+08:00 (in 1.992198 seconds)
+2023-03-17 15:57:07|DEBUG|Looking for jobs to run
+2023-03-17 15:57:07|INFO|Running job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:07 CST)" (scheduled at 2023-03-17 16:57:07.326755+08:00)
+2023-03-17 15:57:07|INFO|Job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:09 CST)" executed successfully
+2023-03-17 15:57:07|DEBUG|Next wakeup is due at 2023-03-17 16:57:09.326755+08:00 (in 1.980066 seconds)
+2023-03-17 15:57:09|DEBUG|Looking for jobs to run
+2023-03-17 15:57:09|INFO|Running job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:11 CST)" (scheduled at 2023-03-17 16:57:09.326755+08:00)
+2023-03-17 15:57:09|INFO|Job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:11 CST)" executed successfully
+2023-03-17 15:57:09|DEBUG|Next wakeup is due at 2023-03-17 16:57:11.326755+08:00 (in 1.969823 seconds)
+2023-03-17 15:57:11|DEBUG|Looking for jobs to run
+2023-03-17 15:57:11|INFO|Running job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:13 CST)" (scheduled at 2023-03-17 16:57:11.326755+08:00)
+2023-03-17 15:57:11|INFO|Job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:13 CST)" executed successfully
+2023-03-17 15:57:11|DEBUG|Next wakeup is due at 2023-03-17 16:57:13.326755+08:00 (in 1.967243 seconds)
+2023-03-17 15:57:13|DEBUG|Looking for jobs to run
+2023-03-17 15:57:13|INFO|Running job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:15 CST)" (scheduled at 2023-03-17 16:57:13.326755+08:00)
+2023-03-17 15:57:13|INFO|Job "job_schedule_reminder_549 (trigger: interval[0:00:02], next run at: 2023-03-17 16:57:15 CST)" executed successfully
+2023-03-17 15:57:13|DEBUG|Next wakeup is due at 2023-03-17 16:57:15.326755+08:00 (in 1.978964 seconds)
+2023-03-17 15:57:15|INFO|Removed job interval_1679043425_549
+2023-03-17 15:57:15|DEBUG|Looking for jobs to run
+2023-03-17 15:57:15|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:04:41|INFO|Scheduler has been shut down
+2023-03-17 16:04:41|DEBUG|Looking for jobs to run
+2023-03-17 16:04:41|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:28:24|INFO|Scheduler started
+2023-03-17 16:28:24|DEBUG|Looking for jobs to run
+2023-03-17 16:28:24|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:28:24|INFO|Added job "job_schedule_reminder_678" to job store "default"
+2023-03-17 16:28:24|DEBUG|Looking for jobs to run
+2023-03-17 16:28:24|DEBUG|Next wakeup is due at 2023-03-17 17:28:26.647254+08:00 (in 1.994270 seconds)
+2023-03-17 16:28:26|DEBUG|Looking for jobs to run
+2023-03-17 16:28:26|INFO|Running job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:26 CST)" (scheduled at 2023-03-17 17:28:26.647254+08:00)
+2023-03-17 16:28:26|INFO|Job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:28 CST)" executed successfully
+2023-03-17 16:28:26|DEBUG|Next wakeup is due at 2023-03-17 17:28:28.647254+08:00 (in 1.980899 seconds)
+2023-03-17 16:28:28|DEBUG|Looking for jobs to run
+2023-03-17 16:28:28|INFO|Running job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:30 CST)" (scheduled at 2023-03-17 17:28:28.647254+08:00)
+2023-03-17 16:28:28|INFO|Job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:30 CST)" executed successfully
+2023-03-17 16:28:28|DEBUG|Next wakeup is due at 2023-03-17 17:28:30.647254+08:00 (in 1.975069 seconds)
+2023-03-17 16:28:30|DEBUG|Looking for jobs to run
+2023-03-17 16:28:30|INFO|Running job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:32 CST)" (scheduled at 2023-03-17 17:28:30.647254+08:00)
+2023-03-17 16:28:30|INFO|Job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:32 CST)" executed successfully
+2023-03-17 16:28:30|DEBUG|Next wakeup is due at 2023-03-17 17:28:32.647254+08:00 (in 1.972278 seconds)
+2023-03-17 16:28:32|DEBUG|Looking for jobs to run
+2023-03-17 16:28:32|INFO|Running job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:34 CST)" (scheduled at 2023-03-17 17:28:32.647254+08:00)
+2023-03-17 16:28:32|INFO|Job "job_schedule_reminder_678 (trigger: interval[0:00:02], next run at: 2023-03-17 17:28:34 CST)" executed successfully
+2023-03-17 16:28:32|DEBUG|Next wakeup is due at 2023-03-17 17:28:34.647254+08:00 (in 1.970317 seconds)
+2023-03-17 16:28:34|DEBUG|Looking for jobs to run
+2023-03-17 16:28:34|INFO|Removed job interval_1679045304_678
+2023-03-17 16:28:34|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:32:00|INFO|Scheduler has been shut down
+2023-03-17 16:32:00|DEBUG|Looking for jobs to run
+2023-03-17 16:32:00|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:32:02|INFO|Scheduler started
+2023-03-17 16:32:02|DEBUG|Looking for jobs to run
+2023-03-17 16:32:02|DEBUG|No jobs; waiting until a job is added
+2023-03-17 16:32:02|INFO|Added job "job_schedule_reminder_691" to job store "default"
+2023-03-17 16:32:02|DEBUG|Looking for jobs to run
+2023-03-17 16:32:02|DEBUG|Next wakeup is due at 2023-03-17 17:32:04.323154+08:00 (in 1.994017 seconds)
+2023-03-17 16:32:04|DEBUG|Looking for jobs to run
+2023-03-17 16:32:04|INFO|Running job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:04 CST)" (scheduled at 2023-03-17 17:32:04.323154+08:00)
+2023-03-17 16:32:04|INFO|Job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:06 CST)" executed successfully
+2023-03-17 16:32:04|DEBUG|Next wakeup is due at 2023-03-17 17:32:06.323154+08:00 (in 1.979486 seconds)
+2023-03-17 16:32:06|DEBUG|Looking for jobs to run
+2023-03-17 16:32:06|INFO|Running job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:08 CST)" (scheduled at 2023-03-17 17:32:06.323154+08:00)
+2023-03-17 16:32:06|INFO|Job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:08 CST)" executed successfully
+2023-03-17 16:32:06|DEBUG|Next wakeup is due at 2023-03-17 17:32:08.323154+08:00 (in 1.977524 seconds)
+2023-03-17 16:32:08|DEBUG|Looking for jobs to run
+2023-03-17 16:32:08|INFO|Running job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:10 CST)" (scheduled at 2023-03-17 17:32:08.323154+08:00)
+2023-03-17 16:32:08|INFO|Job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:10 CST)" executed successfully
+2023-03-17 16:32:08|DEBUG|Next wakeup is due at 2023-03-17 17:32:10.323154+08:00 (in 1.980955 seconds)
+2023-03-17 16:32:10|DEBUG|Looking for jobs to run
+2023-03-17 16:32:10|INFO|Running job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:12 CST)" (scheduled at 2023-03-17 17:32:10.323154+08:00)
+2023-03-17 16:32:10|INFO|Job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:12 CST)" executed successfully
+2023-03-17 16:32:10|DEBUG|Next wakeup is due at 2023-03-17 17:32:12.323154+08:00 (in 1.990412 seconds)
+2023-03-17 16:32:12|DEBUG|Looking for jobs to run
+2023-03-17 16:32:12|INFO|Running job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:14 CST)" (scheduled at 2023-03-17 17:32:12.323154+08:00)
+2023-03-17 16:32:12|INFO|Job "job_schedule_reminder_691 (trigger: interval[0:00:02], next run at: 2023-03-17 17:32:14 CST)" executed successfully
+2023-03-17 16:32:12|DEBUG|Next wakeup is due at 2023-03-17 17:32:14.323154+08:00 (in 1.980794 seconds)
+2023-03-17 16:32:12|INFO|Removed job interval_1679045522_691
+2023-03-17 16:32:14|DEBUG|Looking for jobs to run
+2023-03-17 16:32:14|DEBUG|No jobs; waiting until a job is added
+2023-03-17 17:31:24|INFO|Scheduler has been shut down
+2023-03-17 17:31:24|DEBUG|Looking for jobs to run
+2023-03-17 17:31:24|DEBUG|No jobs; waiting until a job is added
+2023-04-14 08:54:59|INFO|Scheduler started
+2023-04-14 08:54:59|DEBUG|Looking for jobs to run
+2023-04-14 08:54:59|DEBUG|No jobs; waiting until a job is added
+2023-04-14 08:55:00|INFO|Added job "job_schedule_reminder_569" to job store "default"
+2023-04-14 08:55:00|DEBUG|Looking for jobs to run
+2023-04-14 08:55:00|DEBUG|Next wakeup is due at 2023-04-14 09:55:02.109549+08:00 (in 1.993019 seconds)
+2023-04-14 08:55:02|DEBUG|Looking for jobs to run
+2023-04-14 08:55:02|INFO|Running job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:02 CST)" (scheduled at 2023-04-14 09:55:02.109549+08:00)
+2023-04-14 08:55:02|INFO|Job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:04 CST)" executed successfully
+2023-04-14 08:55:02|DEBUG|Next wakeup is due at 2023-04-14 09:55:04.109549+08:00 (in 1.993401 seconds)
+2023-04-14 08:55:04|DEBUG|Looking for jobs to run
+2023-04-14 08:55:04|INFO|Running job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:06 CST)" (scheduled at 2023-04-14 09:55:04.109549+08:00)
+2023-04-14 08:55:04|INFO|Job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:06 CST)" executed successfully
+2023-04-14 08:55:04|DEBUG|Next wakeup is due at 2023-04-14 09:55:06.109549+08:00 (in 1.973684 seconds)
+2023-04-14 08:55:06|DEBUG|Looking for jobs to run
+2023-04-14 08:55:06|INFO|Running job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:08 CST)" (scheduled at 2023-04-14 09:55:06.109549+08:00)
+2023-04-14 08:55:06|INFO|Job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:08 CST)" executed successfully
+2023-04-14 08:55:06|DEBUG|Next wakeup is due at 2023-04-14 09:55:08.109549+08:00 (in 1.985991 seconds)
+2023-04-14 08:55:08|DEBUG|Looking for jobs to run
+2023-04-14 08:55:08|INFO|Running job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:10 CST)" (scheduled at 2023-04-14 09:55:08.109549+08:00)
+2023-04-14 08:55:08|INFO|Job "job_schedule_reminder_569 (trigger: interval[0:00:02], next run at: 2023-04-14 09:55:10 CST)" executed successfully
+2023-04-14 08:55:08|DEBUG|Next wakeup is due at 2023-04-14 09:55:10.109549+08:00 (in 1.975153 seconds)
+2023-04-14 08:55:10|DEBUG|Looking for jobs to run
+2023-04-14 08:55:10|INFO|Removed job interval_1681437299_569
+2023-04-14 08:55:10|DEBUG|No jobs; waiting until a job is added
+2023-04-14 08:58:28|INFO|Scheduler has been shut down
+2023-04-14 08:58:28|DEBUG|Looking for jobs to run
+2023-04-14 08:58:28|DEBUG|No jobs; waiting until a job is added
+2023-04-14 09:14:07|INFO|Scheduler started
+2023-04-14 09:14:07|DEBUG|Looking for jobs to run
+2023-04-14 09:14:07|ERROR|Unable to restore job "1" -- removing it
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 296, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module '__main__' has no attribute 'add'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 148, in _get_jobs
+    jobs.append(self._reconstitute_job(row.job_state))
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 134, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\job.py", line 273, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 299, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference __main__:add: error looking up object
+2023-04-14 09:14:07|ERROR|Unable to restore job "2" -- removing it
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 296, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module '__main__' has no attribute 'abc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 148, in _get_jobs
+    jobs.append(self._reconstitute_job(row.job_state))
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 134, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\job.py", line 273, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 299, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference __main__:abc: error looking up object
+2023-04-14 09:14:07|ERROR|Unable to restore job "3" -- removing it
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 296, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module '__main__' has no attribute 'acb'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 148, in _get_jobs
+    jobs.append(self._reconstitute_job(row.job_state))
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 134, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\job.py", line 273, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "C:\Users\Admins\PycharmProjects\CQGTrade\venv\lib\site-packages\apscheduler\util.py", line 299, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference __main__:acb: error looking up object
+2023-04-14 09:14:07|DEBUG|No jobs; waiting until a job is added
+2023-04-14 09:14:07|INFO|Added job "job_schedule_reminder_235" to job store "default"
+2023-04-14 09:14:07|DEBUG|Looking for jobs to run
+2023-04-14 09:14:07|DEBUG|Next wakeup is due at 2023-04-14 10:14:09.625095+08:00 (in 1.997049 seconds)
+2023-04-14 09:14:09|DEBUG|Looking for jobs to run
+2023-04-14 09:14:09|INFO|Running job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:09 CST)" (scheduled at 2023-04-14 10:14:09.625095+08:00)
+2023-04-14 09:14:09|INFO|Job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:11 CST)" executed successfully
+2023-04-14 09:14:09|DEBUG|Next wakeup is due at 2023-04-14 10:14:11.625095+08:00 (in 1.994812 seconds)
+2023-04-14 09:14:11|DEBUG|Looking for jobs to run
+2023-04-14 09:14:11|INFO|Running job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:13 CST)" (scheduled at 2023-04-14 10:14:11.625095+08:00)
+2023-04-14 09:14:11|INFO|Job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:13 CST)" executed successfully
+2023-04-14 09:14:11|DEBUG|Next wakeup is due at 2023-04-14 10:14:13.625095+08:00 (in 1.980622 seconds)
+2023-04-14 09:14:13|DEBUG|Looking for jobs to run
+2023-04-14 09:14:13|INFO|Running job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:15 CST)" (scheduled at 2023-04-14 10:14:13.625095+08:00)
+2023-04-14 09:14:13|INFO|Job "job_schedule_reminder_235 (trigger: interval[0:00:02], next run at: 2023-04-14 10:14:15 CST)" executed successfully
+2023-04-14 09:14:13|DEBUG|Next wakeup is due at 2023-04-14 10:14:15.625095+08:00 (in 1.987943 seconds)

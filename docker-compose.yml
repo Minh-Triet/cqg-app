@@ -1,0 +1,24 @@
+version: "3.5"
+
+services:
+  web-app:
+    build:
+      context: ./
+    restart: unless-stopped
+    container_name: app-cqg-zz
+    image: app-cqg-zz
+    ports:
+      - "5000:5000"
+    networks:
+      network:
+        ipv4_address: 172.16.238.10
+
+
+networks:
+  network:
+    name: network
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.16.238.0/24
