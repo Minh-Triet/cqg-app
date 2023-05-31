@@ -122,10 +122,10 @@ class Application(fix.Application):
 
             logger.debug(orderMsg.toString())
             logger.debug(type(orderMsg))
-            logger.debug('8=FIX.4.29=9035=UZS34=149=SacombankFDC52=20230529-03:19:13.56918256=CQG_Gateway263=020034=12345510=040'.replace(
-                    chr(1),'|'))
-            logger.debug(' 8=FIX.4.29=10535=334=349=SacombankFDC52=20230529-03:19:13.00056=CQG_Gateway45=258=Invalid MsgType372=UZR373=1110=177'.replace(
-                    chr(1),'|'))
+            # logger.debug('8=FIX.4.29=9035=UZS34=149=SacombankFDC52=20230529-03:19:13.56918256=CQG_Gateway263=020034=12345510=040'.replace(
+            #         chr(1),'|'))
+            # logger.debug(' 8=FIX.4.29=10535=334=349=SacombankFDC52=20230529-03:19:13.00056=CQG_Gateway45=258=Invalid MsgType372=UZR373=1110=177'.replace(
+            #         chr(1),'|'))
             fix.Session.sendToTarget(orderMsg, self.sessionID)
         except Exception as e:
             logger.debug(e)
