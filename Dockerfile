@@ -6,7 +6,7 @@ USER root
 #RUN chgrp -R 0 temp && \
 #    chmod -R g=u temp
 RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
-#RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
+RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN yum apt
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
