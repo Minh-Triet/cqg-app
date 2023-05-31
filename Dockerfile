@@ -5,7 +5,7 @@ WORKDIR /app
 
 #RUN chgrp -R 0 temp && \
 #    chmod -R g=u temp
-RUN /usr/local/bin/python -m pip install --upgrade pip
+#RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN apt-get update
 #RUN apt-get -y install software-properties-common
