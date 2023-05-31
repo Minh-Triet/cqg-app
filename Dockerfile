@@ -1,4 +1,4 @@
-FROM python:3.9.7
+FROM image-registry.openshift-image-registry.svc:5000/openshift/python
 EXPOSE 5000
 COPY . /app
 WORKDIR /app
@@ -7,7 +7,6 @@ RUN chgrp -R 0 logs && \
     chmod -R g=u logs
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
-#RUN echo "deb http://ftp.debian.org/debian sid main" >> /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get -y install software-properties-common
 RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
