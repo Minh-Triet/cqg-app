@@ -8,7 +8,7 @@ USER 0
 RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 RUN yum update -y
-RUN dnf install sid -y install libc6 libc6-dev libc6-dbg
+RUN yum install gcc-toolset-11
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
 #RUN apt-get update
