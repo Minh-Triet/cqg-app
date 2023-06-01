@@ -9,10 +9,13 @@ RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN yum install yum-utils
 #RUN yum config-manager --enable ubi-8-appstream-rpms
+RUN yum install leapp leapp-repository
+RUN leapp preupgrade
+RUN reboot
 RUN yum update -y
+RUN leapp upgrade
 RUN yum install gcc-toolset-12
-RUN scl enable gcc-toolset-12 gcc
-RUN scl enable gcc-toolset-12 g++
+RUN  scl enable gcc-toolset-12 tool
 RUN scl enable gcc-toolset-12 bash
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
