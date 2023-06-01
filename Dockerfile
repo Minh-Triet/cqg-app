@@ -2,12 +2,13 @@ FROM image-registry.openshift-image-registry.svc:5000/openshift/python
 EXPOSE 5000
 COPY . /app
 WORKDIR /app
-USER root
+USER 0
 #RUN chgrp -R 0 temp && \
 #    chmod -R g=u temp
 RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 RUN yum update -y
+RUN yum install gcc
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
 #RUN apt-get update
