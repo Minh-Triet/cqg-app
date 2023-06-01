@@ -7,7 +7,7 @@ USER 0
 #    chmod -R g=u temp
 RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
-RUN config-manager --enable rhel-8-for-x86_64-appstream-rpms
+RUN yum config-manager --enable rhel-8-for-x86_64-appstream-rpms
 RUN yum update -y
 RUN yum install gcc-toolset-11
 RUN scl enable gcc-toolset-11 gcc
