@@ -9,7 +9,7 @@ RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN yum install yum-utils
 #RUN yum config-manager --enable ubi-8-appstream-rpms
-RUN yum module install python39/build
+RUN yum module install -y python39/build
 RUN yum install -y gcc
 RUN yum update -y
 #RUN apt-get -y install software-properties-common
