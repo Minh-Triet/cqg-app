@@ -8,7 +8,16 @@ USER 0
 RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 RUN yum update -y
-RUN dnf install gcc-toolset-11-build
+RUN git clone https://github.com/gcc-mirror/gcc.git
+RUN cd gcc
+RUN git checkout releases/gcc-12.2.0
+RUN ./contrib/download_prerequisites
+RUN cd ..
+RUN mkdir objdir
+RUN cd objdir
+RUN $PWD/../gcc-12.2.0/configure --prefix=$HOME/GCC-12.2.0 --enable-languages=c,c++,fortran,go
+RUN make -j
+RUN make install
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
 #RUN apt-get update
