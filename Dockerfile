@@ -14,10 +14,10 @@ RUN yum install -y wget tar bzip2 make
 RUN wget https://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz && \
 tar xf gcc-11.2.0.tar.xz && \
 rm gcc-11.2.0.tar.xz
-RUN ./contrib/download_prerequisites
 # Create a build directory and configure GCC 11
 RUN mkdir gcc-build && \
 cd gcc-build && \
+../gcc-11.2.0/contrib/download_prerequisites && \
 ../gcc-11.2.0/configure --disable-multilib --enable-languages=c,c++
 
 # Build and install GCC 11
