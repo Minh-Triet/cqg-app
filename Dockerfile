@@ -15,9 +15,9 @@ RUN wget https://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz && \
 tar xf gcc-11.2.0.tar.xz && \
 rm gcc-11.2.0.tar.xz
 # Create a build directory and configure GCC 11
+RUN cd gcc-11.2.0 && ./contrib/download_prerequisites && cd ..
 RUN mkdir gcc-build && \
 cd gcc-build && \
-./contrib/download_prerequisites && \
 ../gcc-11.2.0/configure --disable-multilib --enable-languages=c,c++
 
 # Build and install GCC 11
