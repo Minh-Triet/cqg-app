@@ -17,7 +17,7 @@ rm gcc-11.2.0.tar.xz
 # Create a build directory and configure GCC 11
 RUN mkdir gcc-build && \
 cd gcc-build && \
-../gcc-11.2.0/contrib/download_prerequisites && \
+./contrib/download_prerequisites && \
 ../gcc-11.2.0/configure --disable-multilib --enable-languages=c,c++
 
 # Build and install GCC 11
