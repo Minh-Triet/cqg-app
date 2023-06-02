@@ -11,8 +11,8 @@ RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 #RUN yum config-manager --enable ubi-8-appstream-rpms
 RUN yum module install -y python39/build
 RUN yum update -y
-RUN yum install -y gcc
-RUN pip install quickfix
+RUN yum install devtoolset-11-gcc*
+#RUN pip install quickfix
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
 #RUN apt-get update
