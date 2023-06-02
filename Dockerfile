@@ -10,7 +10,7 @@ RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN yum install yum-utils
 #RUN yum config-manager --enable ubi-8-appstream-rpms
 #RUN yum module install -y python39/build
-RUN microdnf install -y gcc-toolset-12
+RUN subscription-manager repos --list | egrep rhscl
 #RUN yum update -y
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
