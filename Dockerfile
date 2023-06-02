@@ -9,17 +9,9 @@ RUN /opt/app-root/bin/python3.9 -m pip install --upgrade pip
 RUN pip install quickfix-1.15.1-cp39-cp39-linux_x86_64.whl
 #RUN yum install yum-utils
 #RUN yum config-manager --enable ubi-8-appstream-rpms
-RUN yum module install -y python39/build
-RUN yum install -y gcc
-RUN yum update -y
-RUN wget https://gcc.gnu.org/pub/gcc/releases/gcc-12.0.0/gcc-12.0.0.tar.gz
-RUN tar xzf gcc-12.0.0.tar.gz
-RUN cd gcc-12.0.0
-RUN ./contrib/download_prerequisites
-RUN ./configure --disable-multilib --enable-languages=c,c++
-RUN make -j $(nproc)
-RUN make check
-RUN make install
+#RUN yum module install -y python39/build
+RUN microdnf install -y gcc-toolset-12
+#RUN yum update -y
 #RUN apt-get -y install software-properties-common
 #RUN apt-add-repository -yu 'deb http://ftp.debian.org/debian sid main'
 #RUN apt-get update
